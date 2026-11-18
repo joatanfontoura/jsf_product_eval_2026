@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="rate" table="x_2319535_jsf_pr_0_evaluation" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>rate</element>
+            <name>x_2319535_jsf_pr_0_evaluation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-18 15:02:09</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>rate</sys_name>
+            <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+            <sys_update_name>sys_choice_x_2319535_jsf_pr_0_evaluation_rate</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-18 15:02:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Great</label>
+            <language>en</language>
+            <name>x_2319535_jsf_pr_0_evaluation</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-18 15:02:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-18 15:02:41</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Very good</label>
+            <language>en</language>
+            <name>x_2319535_jsf_pr_0_evaluation</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-18 15:02:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-18 15:02:47</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Good</label>
+            <language>en</language>
+            <name>x_2319535_jsf_pr_0_evaluation</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-18 15:02:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-18 15:02:56</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - Neither</label>
+            <language>en</language>
+            <name>x_2319535_jsf_pr_0_evaluation</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-18 15:02:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-18 15:03:44</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5 - Bad</label>
+            <language>en</language>
+            <name>x_2319535_jsf_pr_0_evaluation</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-18 15:02:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-18 15:03:53</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6 - Very bad</label>
+            <language>en</language>
+            <name>x_2319535_jsf_pr_0_evaluation</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-18 15:02:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-18 15:03:58</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7361108b83a81310c003f6d6feaad332" extends="task" label="Evaluation" max_length="40" name="x_2319535_jsf_pr_0_evaluation" type="collection">
+        <element label="Reproval reason" max_length="1000" name="reproval_reason" type="string"/>
+        <element label="Evaluation complete" max_length="40" name="evaluation_complete" type="boolean"/>
+        <element label="Product" max_length="32" name="product" reference="x_2319535_jsf_pr_0_product" type="reference"/>
+        <element choice="1" label="Reward" max_length="40" name="reward" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Credit card points" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Gift card" sequence="100" value="1"/>
+            </choice>
+        </element>
+        <element choice="1" label="Rate" max_length="255" name="rate" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 - Great" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="4 - Neither" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="5 - Bad" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="6 - Very bad" sequence="600" value="6"/>
+                <element inactive_on_update="false" label="3 - Good" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="2 - Very good" sequence="200" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>
