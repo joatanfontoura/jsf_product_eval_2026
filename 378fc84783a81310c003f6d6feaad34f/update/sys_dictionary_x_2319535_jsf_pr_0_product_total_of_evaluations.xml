@@ -11,7 +11,7 @@
         <column_label>Total of Evaluations</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>0</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -54,7 +54,7 @@
         <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
         <sys_update_name>sys_dictionary_x_2319535_jsf_pr_0_product_total_of_evaluations</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-11-18 14:50:59</sys_updated_on>
+        <sys_updated_on>2026-11-18 18:23:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

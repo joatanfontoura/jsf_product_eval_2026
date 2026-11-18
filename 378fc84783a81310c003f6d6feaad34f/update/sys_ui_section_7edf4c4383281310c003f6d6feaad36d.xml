@@ -4,13 +4,111 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-18 14:45:53</sys_created_on>
-            <sys_id>b6df448783a81310c003f6d6feaad3d3</sys_id>
+            <sys_created_on>2026-11-18 17:15:25</sys_created_on>
+            <sys_id>c91270c783ac1310c003f6d6feaad3bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2319535_jsf_pr_0_product" sys_domain="global" view="Default view">7edf4c4383281310c003f6d6feaad36d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-18 14:45:53</sys_updated_on>
+            <sys_updated_on>2026-11-18 17:15:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-18 17:15:25</sys_created_on>
+            <sys_id>811270c783ac1310c003f6d6feaad3be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_2319535_jsf_pr_0_product" sys_domain="global" view="Default view">7edf4c4383281310c003f6d6feaad36d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-18 17:15:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-18 17:15:25</sys_created_on>
+            <sys_id>011270c783ac1310c003f6d6feaad3bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_2319535_jsf_pr_0_product" sys_domain="global" view="Default view">7edf4c4383281310c003f6d6feaad36d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-18 17:15:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>brand</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-18 17:15:25</sys_created_on>
+            <sys_id>8d1270c783ac1310c003f6d6feaad3bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_2319535_jsf_pr_0_product" sys_domain="global" view="Default view">7edf4c4383281310c003f6d6feaad36d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-18 17:15:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-18 17:15:25</sys_created_on>
+            <sys_id>0d1270c783ac1310c003f6d6feaad3c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_2319535_jsf_pr_0_product" sys_domain="global" view="Default view">7edf4c4383281310c003f6d6feaad36d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-18 17:15:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_of_evaluations</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-18 17:15:25</sys_created_on>
+            <sys_id>891270c783ac1310c003f6d6feaad3c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_2319535_jsf_pr_0_product" sys_domain="global" view="Default view">7edf4c4383281310c003f6d6feaad36d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-18 17:15:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-18 17:15:25</sys_created_on>
+            <sys_id>091270c783ac1310c003f6d6feaad3c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_2319535_jsf_pr_0_product" sys_domain="global" view="Default view">7edf4c4383281310c003f6d6feaad36d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-18 17:15:25</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>technical_specifications</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-18 17:15:25</sys_created_on>
+            <sys_id>851270c783ac1310c003f6d6feaad3c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_2319535_jsf_pr_0_product" sys_domain="global" view="Default view">7edf4c4383281310c003f6d6feaad36d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-18 17:15:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

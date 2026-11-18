@@ -3,107 +3,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_2319535_jsf_pr_0_store" element="NULL" name="x_2319535_jsf_pr_0_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">faf518c383e81310c003f6d6feaad314</list_id>
+            <list_id display_value="x_2319535_jsf_pr_0_store" element="NULL" name="x_2319535_jsf_pr_0_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd4b7cc783ec1310c003f6d6feaad32f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-18 15:12:39</sys_created_on>
-            <sys_id>7ef518c383e81310c003f6d6feaad315</sys_id>
+            <sys_created_on>2026-11-18 17:55:37</sys_created_on>
+            <sys_id>314b7cc783ec1310c003f6d6feaad331</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-18 15:12:39</sys_updated_on>
+            <sys_updated_on>2026-11-18 17:55:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>contact</element>
-            <list_id display_value="x_2319535_jsf_pr_0_store" element="NULL" name="x_2319535_jsf_pr_0_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">faf518c383e81310c003f6d6feaad314</list_id>
+            <element>city</element>
+            <list_id display_value="x_2319535_jsf_pr_0_store" element="NULL" name="x_2319535_jsf_pr_0_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd4b7cc783ec1310c003f6d6feaad32f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-18 15:12:39</sys_created_on>
-            <sys_id>32f518c383e81310c003f6d6feaad316</sys_id>
+            <sys_created_on>2026-11-18 17:55:37</sys_created_on>
+            <sys_id>f14b7cc783ec1310c003f6d6feaad331</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-18 15:12:39</sys_updated_on>
+            <sys_updated_on>2026-11-18 17:55:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>phone</element>
-            <list_id display_value="x_2319535_jsf_pr_0_store" element="NULL" name="x_2319535_jsf_pr_0_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">faf518c383e81310c003f6d6feaad314</list_id>
+            <element>state</element>
+            <list_id display_value="x_2319535_jsf_pr_0_store" element="NULL" name="x_2319535_jsf_pr_0_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd4b7cc783ec1310c003f6d6feaad32f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-18 15:12:39</sys_created_on>
-            <sys_id>f2f518c383e81310c003f6d6feaad316</sys_id>
+            <sys_created_on>2026-11-18 17:55:37</sys_created_on>
+            <sys_id>b54b7cc783ec1310c003f6d6feaad331</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-18 15:12:39</sys_updated_on>
+            <sys_updated_on>2026-11-18 17:55:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>city</element>
-            <list_id display_value="x_2319535_jsf_pr_0_store" element="NULL" name="x_2319535_jsf_pr_0_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">faf518c383e81310c003f6d6feaad314</list_id>
+            <element>zip</element>
+            <list_id display_value="x_2319535_jsf_pr_0_store" element="NULL" name="x_2319535_jsf_pr_0_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd4b7cc783ec1310c003f6d6feaad32f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-18 15:12:39</sys_created_on>
-            <sys_id>b6f518c383e81310c003f6d6feaad316</sys_id>
+            <sys_created_on>2026-11-18 17:55:37</sys_created_on>
+            <sys_id>794b7cc783ec1310c003f6d6feaad331</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-18 15:12:39</sys_updated_on>
+            <sys_updated_on>2026-11-18 17:55:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>latitude</element>
-            <list_id display_value="x_2319535_jsf_pr_0_store" element="NULL" name="x_2319535_jsf_pr_0_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">faf518c383e81310c003f6d6feaad314</list_id>
+            <element>sys_created_on</element>
+            <list_id display_value="x_2319535_jsf_pr_0_store" element="NULL" name="x_2319535_jsf_pr_0_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd4b7cc783ec1310c003f6d6feaad32f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-18 15:12:39</sys_created_on>
-            <sys_id>7af518c383e81310c003f6d6feaad316</sys_id>
+            <sys_created_on>2026-11-18 17:55:37</sys_created_on>
+            <sys_id>3d4b7cc783ec1310c003f6d6feaad331</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-18 15:12:39</sys_updated_on>
+            <sys_updated_on>2026-11-18 17:55:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>longitude</element>
-            <list_id display_value="x_2319535_jsf_pr_0_store" element="NULL" name="x_2319535_jsf_pr_0_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">faf518c383e81310c003f6d6feaad314</list_id>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_2319535_jsf_pr_0_store" element="NULL" name="x_2319535_jsf_pr_0_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd4b7cc783ec1310c003f6d6feaad32f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-18 15:12:39</sys_created_on>
-            <sys_id>3ef518c383e81310c003f6d6feaad316</sys_id>
+            <sys_created_on>2026-11-18 17:55:37</sys_created_on>
+            <sys_id>fd4b7cc783ec1310c003f6d6feaad331</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-18 15:12:39</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>sys_updated_on</element>
-            <list_id display_value="x_2319535_jsf_pr_0_store" element="NULL" name="x_2319535_jsf_pr_0_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">faf518c383e81310c003f6d6feaad314</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-18 15:12:39</sys_created_on>
-            <sys_id>fef518c383e81310c003f6d6feaad316</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-18 15:12:39</sys_updated_on>
+            <sys_updated_on>2026-11-18 17:55:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -117,10 +102,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-18 15:12:39</sys_created_on>
+            <sys_created_on>2026-11-18 17:55:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>faf518c383e81310c003f6d6feaad314</sys_id>
+            <sys_id>fd4b7cc783ec1310c003f6d6feaad32f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_2319535_jsf_pr_0_store</sys_name>
             <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
@@ -128,7 +113,7 @@
             <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
             <sys_update_name>sys_ui_list_x_2319535_jsf_pr_0_store_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-18 15:12:39</sys_updated_on>
+            <sys_updated_on>2026-11-18 17:55:37</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
