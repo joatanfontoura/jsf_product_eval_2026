@@ -1,0 +1,2727 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>30000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>viacep</internal_name>
+        <label_cache>[{"name":"{{action.cep}}","label":"action➛cep","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].__step_status__}}","label":"step➛Prepare data➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5ab0ef85-4a29-4436-a2c3-1c0b531863b8].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].format}}","label":"step➛Prepare data➛Format","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].endpoint}}","label":"step➛Prepare data➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[4f9be734-8ee7-4627-9ddf-fe02e1c5be44].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>7660665f8368d310c003f6d6feaad319</master_snapshot>
+        <master_snapshot_digest/>
+        <name>ViaCEP</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:33:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d75b12178368d310c003f6d6feaad30a</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>ViaCEP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_d75b12178368d310c003f6d6feaad30a</sys_update_name>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 20:02:36</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=d75b12178368d310c003f6d6feaad30a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d75b12178368d310c003f6d6feaad30a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>d75b12178368d310c003f6d6feaad30a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:16</sys_created_on>
+        <sys_id>9f5c9e578368d310c003f6d6feaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:16</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">9b5c5e578368d310c003f6d6feaad3f7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>d75b12178368d310c003f6d6feaad30a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:16</sys_created_on>
+        <sys_id>d35c9e578368d310c003f6d6feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:16</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">4b5c5e578368d310c003f6d6feaad3d4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d75b12178368d310c003f6d6feaad30a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>viacep_data</field>
+        <id>d75b12178368d310c003f6d6feaad30a</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>2260265f8368d310c003f6d6feaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <table>var__m_sys_hub_action_output_d75b12178368d310c003f6d6feaad30a</table>
+        <value>{{step[4f9be734-8ee7-4627-9ddf-fe02e1c5be44].root}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>d75b12178368d310c003f6d6feaad30a</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:16</sys_created_on>
+        <sys_id>db5c9e578368d310c003f6d6feaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:16</sys_updated_on>
+        <table>var__m_sys_hub_action_output_d75b12178368d310c003f6d6feaad30a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>d75b12178368d310c003f6d6feaad30a</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:16</sys_created_on>
+        <sys_id>975c9e578368d310c003f6d6feaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:16</sys_updated_on>
+        <table>var__m_sys_hub_action_output_d75b12178368d310c003f6d6feaad30a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=d75b12178368d310c003f6d6feaad30a^sys_idNOT IN875c5e578368d310c003f6d6feaad37a,c75c5e578368d310c003f6d6feaad395,d260e25f8368d310c003f6d6feaad3f4"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</action>
+        <cid>6de45e29-76e2-477f-b394-971ca4920dfd</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Prepare data</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:14</sys_created_on>
+        <sys_id>875c5e578368d310c003f6d6feaad37a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:56</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=875c5e578368d310c003f6d6feaad37a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>875c5e578368d310c003f6d6feaad37a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>435c5e578368d310c003f6d6feaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>875c5e578368d310c003f6d6feaad37a</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>835c5e578368d310c003f6d6feaad392</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:56</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+    outputs.endpoint = gs.getProperty('x_2319535_jsf_pr_0.integration_viacep.endpoint');&#13;
+    outputs.format = gs.getProperty('x_2319535_jsf_pr_0.integration_viacep.format');&#13;
+    &#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_875c5e578368d310c003f6d6feaad37a^id=875c5e578368d310c003f6d6feaad37a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=875c5e578368d310c003f6d6feaad37a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=875c5e578368d310c003f6d6feaad37a"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=875c5e578368d310c003f6d6feaad37a"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=875c5e578368d310c003f6d6feaad37a^sys_idNOT IN8260e25f8368d310c003f6d6feaad387,8260e25f8368d310c003f6d6feaad3a9"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7a58ce9c-d33e-40f5-bc59-691335fd69db</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>endpoint</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Endpoint</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Prepare data">875c5e578368d310c003f6d6feaad37a</model>
+        <model_id>875c5e578368d310c003f6d6feaad37a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_875c5e578368d310c003f6d6feaad37a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:56</sys_created_on>
+        <sys_id>8260e25f8368d310c003f6d6feaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8fb621e0-dd11-4e29-99af-66126a8fdaf9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>format</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Format</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Prepare data">875c5e578368d310c003f6d6feaad37a</model>
+        <model_id>875c5e578368d310c003f6d6feaad37a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_875c5e578368d310c003f6d6feaad37a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:56</sys_created_on>
+        <sys_id>8260e25f8368d310c003f6d6feaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=875c5e578368d310c003f6d6feaad37a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>endpoint</element>
+        <help/>
+        <hint/>
+        <label>Endpoint</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_875c5e578368d310c003f6d6feaad37a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:56</sys_created_on>
+        <sys_id>4e60e25f8368d310c003f6d6feaad3a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>format</element>
+        <help/>
+        <hint/>
+        <label>Format</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_875c5e578368d310c003f6d6feaad37a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:56</sys_created_on>
+        <sys_id>8a60e25f8368d310c003f6d6feaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</action>
+        <cid>5ab0ef85-4a29-4436-a2c3-1c0b531863b8</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>c75c5e578368d310c003f6d6feaad395</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 20:02:36</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c75c5e578368d310c003f6d6feaad395"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c75c5e578368d310c003f6d6feaad395</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>075c5e578368d310c003f6d6feaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c75c5e578368d310c003f6d6feaad395</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>0b5c5e578368d310c003f6d6feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c75c5e578368d310c003f6d6feaad395</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>1a60e25f8368d310c003f6d6feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c75c5e578368d310c003f6d6feaad395</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>4b5c5e578368d310c003f6d6feaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c75c5e578368d310c003f6d6feaad395</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>5e60e25f8368d310c003f6d6feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c75c5e578368d310c003f6d6feaad395</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>8f5c5e578368d310c003f6d6feaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c75c5e578368d310c003f6d6feaad395</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>c35c5e578368d310c003f6d6feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c75c5e578368d310c003f6d6feaad395</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>cf5c5e578368d310c003f6d6feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c75c5e578368d310c003f6d6feaad395"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>c75c5e578368d310c003f6d6feaad395</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>c75c5e578368d310c003f6d6feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>c75c5e578368d310c003f6d6feaad395</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>1260e25f8368d310c003f6d6feaad3ed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 20:02:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{step[6de45e29-76e2-477f-b394-971ca4920dfd].endpoint}}/{{action.cep}}/{{step[6de45e29-76e2-477f-b394-971ca4920dfd].format}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>c75c5e578368d310c003f6d6feaad395</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>835c5e578368d310c003f6d6feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>c75c5e578368d310c003f6d6feaad395</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>4f5c5e578368d310c003f6d6feaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>c75c5e578368d310c003f6d6feaad395</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>0f5c5e578368d310c003f6d6feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>c75c5e578368d310c003f6d6feaad395</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>da60e25f8368d310c003f6d6feaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>c75c5e578368d310c003f6d6feaad395</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>c35c5e578368d310c003f6d6feaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>c75c5e578368d310c003f6d6feaad395</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>0b5c5e578368d310c003f6d6feaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>c75c5e578368d310c003f6d6feaad395</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>5660e25f8368d310c003f6d6feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=c75c5e578368d310c003f6d6feaad395"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c75c5e578368d310c003f6d6feaad395"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c75c5e578368d310c003f6d6feaad395"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c75c5e578368d310c003f6d6feaad395"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</action>
+        <cid>4f9be734-8ee7-4627-9ddf-fe02e1c5be44</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>d260e25f8368d310c003f6d6feaad3f4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d260e25f8368d310c003f6d6feaad3f4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d260e25f8368d310c003f6d6feaad3f4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>1e60265f8368d310c003f6d6feaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <value>{&#13;
+  "cep": "93315-290",&#13;
+  "logradouro": "Rua Paulo Provenzano",&#13;
+  "complemento": "",&#13;
+  "unidade": "",&#13;
+  "bairro": "Operário",&#13;
+  "localidade": "Novo Hamburgo",&#13;
+  "uf": "RS",&#13;
+  "estado": "Rio Grande do Sul",&#13;
+  "regiao": "Sul",&#13;
+  "ibge": "4313409",&#13;
+  "gia": "",&#13;
+  "ddd": "51",&#13;
+  "siafi": "8771",&#13;
+  "erro": "true"&#13;
+}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d260e25f8368d310c003f6d6feaad3f4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>d660265f8368d310c003f6d6feaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"cep","children":[],"type":"string","jpath":"$.cep","previewValue":"93315-290"},{"name":"logradouro","children":[],"type":"string","jpath":"$.logradouro","previewValue":"Rua Paulo Provenzano"},{"name":"complemento","children":[],"type":"string","jpath":"$.complemento","previewValue":""},{"name":"unidade","children":[],"type":"string","jpath":"$.unidade","previewValue":""},{"name":"bairro","children":[],"type":"string","jpath":"$.bairro","previewValue":"Operário"},{"name":"localidade","children":[],"type":"string","jpath":"$.localidade","previewValue":"Novo Hamburgo"},{"name":"uf","children":[],"type":"string","jpath":"$.uf","previewValue":"RS"},{"name":"estado","children":[],"type":"string","jpath":"$.estado","previewValue":"Rio Grande do Sul"},{"name":"regiao","children":[],"type":"string","jpath":"$.regiao","previewValue":"Sul"},{"name":"ibge","children":[],"type":"string","jpath":"$.ibge","previewValue":"4313409"},{"name":"gia","children":[],"type":"string","jpath":"$.gia","previewValue":""},{"name":"ddd","children":[],"type":"string","jpath":"$.ddd","previewValue":"51"},{"name":"siafi","children":[],"type":"string","jpath":"$.siafi","previewValue":"8771"},{"name":"erro","children":[],"type":"string","jpath":"$.erro","previewValue":"true"}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_d260e25f8368d310c003f6d6feaad3f4^id=d260e25f8368d310c003f6d6feaad3f4"/>
+    <sys_element_mapping action="delete_multiple" query="id=d260e25f8368d310c003f6d6feaad3f4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>d260e25f8368d310c003f6d6feaad3f4</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>1660265f8368d310c003f6d6feaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>d260e25f8368d310c003f6d6feaad3f4</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>de60265f8368d310c003f6d6feaad319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[5ab0ef85-4a29-4436-a2c3-1c0b531863b8].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>d260e25f8368d310c003f6d6feaad3f4</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>9a60265f8368d310c003f6d6feaad319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=d260e25f8368d310c003f6d6feaad3f4"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d260e25f8368d310c003f6d6feaad3f4"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d260e25f8368d310c003f6d6feaad3f4^sys_idNOT IN9a60e25f8368d310c003f6d6feaad3fd"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD9660e25fbc68d31007663e31744518fa</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>378fc84783a81310c003f6d6feaad34f</scope_name>
+        <serialized_content>{"FlowDesigner:FD9660e25fbc68d31007663e31744518fa":{"estado":"String","estado.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"estado\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\",\"uiUniqueId\":\"9b7f876a-e8a8-448d-ac30-3e86e437d08d\"}"},"ddd":"String","ddd.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"ddd\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\",\"uiUniqueId\":\"212358b2-9509-4548-8598-3d42e966e532\"}"},"erro":"String","erro.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"erro\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\",\"uiUniqueId\":\"b0626ede-746a-4a5e-9eac-ba006de0aa08\"}"},"bairro":"String","bairro.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"bairro\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"b187bf5c-8cf4-4bd3-8ae1-c4132d40165f\"}"},"ibge":"String","ibge.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"ibge\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\",\"uiUniqueId\":\"49505026-3880-457f-a694-1f8019b80207\"}"},"localidade":"String","localidade.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"localidade\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"bf575ee9-a42b-4fd7-baf3-ebf588e6dd6a\"}"},"unidade":"String","unidade.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"unidade\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"368af7f0-83e6-4104-a83d-4352ae8c0460\"}"},"regiao":"String","regiao.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"regiao\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\",\"uiUniqueId\":\"36cfa421-1ea2-4220-b032-426a565c7dc8\"}"},"siafi":"String","siafi.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"siafi\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\",\"uiUniqueId\":\"45e92827-c068-4b10-8585-04c6a9716f69\"}"},"cep":"String","cep.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"cep\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"7f0e160b-9d06-4cff-9dbf-6f015f600d2d\"}"},"uf":"String","uf.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"uf\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"e6c2b862-2fda-4943-80ef-c03918267096\"}"},"complemento":"String","complemento.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"complemento\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"74595c56-20c1-413f-974b-88e27973c77c\"}"},"logradouro":"String","logradouro.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"logradouro\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"eafd549b-d9cc-4c8d-9a07-a49cc10f8b34\"}"},"gia":"String","gia.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"gia\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\",\"uiUniqueId\":\"6ce5549f-d340-47ab-b89f-902cf35eaa40\"}"}},"FlowDesigner:FD9660e25fbc68d31007663e31744518fa.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"9d18bf71-8b54-4780-9835-fcb677379d9b\",\"uiTypeLabel\":\"Object\",\"help\":\"\",\"co_type_name\":\"FD9660e25fbc68d31007663e31744518fa\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e60e25f8368d310c003f6d6feaad3fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 20:02:36</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD9660e25fbc68d31007663e31744518fa,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=9d18bf71-8b54-4780-9835-fcb677379d9b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">d260e25f8368d310c003f6d6feaad3f4</model>
+        <model_id>d260e25f8368d310c003f6d6feaad3f4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d260e25f8368d310c003f6d6feaad3f4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>9a60e25f8368d310c003f6d6feaad3fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d260e25f8368d310c003f6d6feaad3f4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_d260e25f8368d310c003f6d6feaad3f4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>1660265f8368d310c003f6d6feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=d75b12178368d310c003f6d6feaad30a^sys_idNOT IN725c1e578368d310c003f6d6feaad3f8"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=63c5d401-85fe-492f-8fde-6e7dac126d80</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>cep</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>cep</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</model>
+        <model_id>d75b12178368d310c003f6d6feaad30a</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_d75b12178368d310c003f6d6feaad30a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:14</sys_created_on>
+        <sys_id>725c1e578368d310c003f6d6feaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=725c1e578368d310c003f6d6feaad3f8"/>
+    <sys_hub_action_output action="delete_multiple" query="model=d75b12178368d310c003f6d6feaad30a^sys_idNOT IN2e60265f8368d310c003f6d6feaad35d,4b5c5e578368d310c003f6d6feaad3d4,9b5c5e578368d310c003f6d6feaad3f7"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDa260265f5068d310cc6edca9bde5d21e</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>378fc84783a81310c003f6d6feaad34f</scope_name>
+        <serialized_content>{"FlowDesigner:FDa260265f5068d310cc6edca9bde5d21e":{"estado":"String","estado.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"estado\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\",\"uiUniqueId\":\"9b7f876a-e8a8-448d-ac30-3e86e437d08d\"}"},"ddd":"String","ddd.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"ddd\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\",\"uiUniqueId\":\"212358b2-9509-4548-8598-3d42e966e532\"}"},"erro":"String","erro.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"erro\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\",\"uiUniqueId\":\"b0626ede-746a-4a5e-9eac-ba006de0aa08\"}"},"bairro":"String","bairro.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"bairro\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"b187bf5c-8cf4-4bd3-8ae1-c4132d40165f\"}"},"ibge":"String","ibge.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"ibge\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\",\"uiUniqueId\":\"49505026-3880-457f-a694-1f8019b80207\"}"},"localidade":"String","localidade.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"localidade\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"bf575ee9-a42b-4fd7-baf3-ebf588e6dd6a\"}"},"unidade":"String","unidade.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"unidade\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"368af7f0-83e6-4104-a83d-4352ae8c0460\"}"},"regiao":"String","regiao.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"regiao\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\",\"uiUniqueId\":\"36cfa421-1ea2-4220-b032-426a565c7dc8\"}"},"siafi":"String","siafi.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"siafi\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\",\"uiUniqueId\":\"45e92827-c068-4b10-8585-04c6a9716f69\"}"},"cep":"String","cep.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"cep\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"7f0e160b-9d06-4cff-9dbf-6f015f600d2d\"}"},"uf":"String","uf.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"uf\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"e6c2b862-2fda-4943-80ef-c03918267096\"}"},"complemento":"String","complemento.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"complemento\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"74595c56-20c1-413f-974b-88e27973c77c\"}"},"logradouro":"String","logradouro.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"logradouro\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"eafd549b-d9cc-4c8d-9a07-a49cc10f8b34\"}"},"gia":"String","gia.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"gia\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\",\"uiUniqueId\":\"6ce5549f-d340-47ab-b89f-902cf35eaa40\"}"}},"FlowDesigner:FDa260265f5068d310cc6edca9bde5d21e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"4f9be734-8ee7-4627-9ddf-fe02e1c5be44\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"ViaCEP Data\",\"mandatory\":\"false\",\"uiUniqueId\":\"c6da934f-2ffc-45fe-ad26-5aecbea54a18\",\"uiTypeLabel\":\"Object\",\"help\":\"\",\"co_type_name\":\"FDa260265f5068d310cc6edca9bde5d21e\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"9d18bf71-8b54-4780-9835-fcb677379d9b\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a660265f8368d310c003f6d6feaad31e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 20:02:36</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDa260265f5068d310cc6edca9bde5d21e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=4f9be734-8ee7-4627-9ddf-fe02e1c5be44,sourceType=step,sourceUiUniqueId=9d18bf71-8b54-4780-9835-fcb677379d9b,uiType=object,uiTypeLabel=Object,uiUniqueId=c6da934f-2ffc-45fe-ad26-5aecbea54a18</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>viacep_data</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ViaCEP Data</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</model>
+        <model_id>d75b12178368d310c003f6d6feaad30a</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_d75b12178368d310c003f6d6feaad30a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>2e60265f8368d310c003f6d6feaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2e60265f8368d310c003f6d6feaad35d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2e60265f8368d310c003f6d6feaad35d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=7b98714f-61f3-409f-bf35-35f51f6bd1bb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</model>
+        <model_id>d75b12178368d310c003f6d6feaad30a</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_d75b12178368d310c003f6d6feaad30a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>4b5c5e578368d310c003f6d6feaad3d4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4b5c5e578368d310c003f6d6feaad3d4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4b5c5e578368d310c003f6d6feaad3d4"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=99c3160b-4d4c-4450-940d-a2536e648ec2,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</model>
+        <model_id>d75b12178368d310c003f6d6feaad30a</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_d75b12178368d310c003f6d6feaad30a</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>9b5c5e578368d310c003f6d6feaad3f7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 20:02:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9b5c5e578368d310c003f6d6feaad3f7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9b5c5e578368d310c003f6d6feaad3f7"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d75b12178368d310c003f6d6feaad30a"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=d75b12178368d310c003f6d6feaad30a^sys_idNOT INd75c9e578368d310c003f6d6feaad319"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</action_type_id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:16</sys_created_on>
+        <sys_id>d75c9e578368d310c003f6d6feaad319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:16</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=d75c9e578368d310c003f6d6feaad319"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>cep</element>
+        <help/>
+        <hint/>
+        <label>cep</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_d75b12178368d310c003f6d6feaad30a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:14</sys_created_on>
+        <sys_id>365c5e578368d310c003f6d6feaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_d75b12178368d310c003f6d6feaad30a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_d75b12178368d310c003f6d6feaad30a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>1f5c9e578368d310c003f6d6feaad301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>viacep_data</element>
+        <help/>
+        <hint/>
+        <label>ViaCEP Data</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_d75b12178368d310c003f6d6feaad30a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:57</sys_created_on>
+        <sys_id>6e60265f8368d310c003f6d6feaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_d75b12178368d310c003f6d6feaad30a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:38:15</sys_created_on>
+        <sys_id>d75c5e578368d310c003f6d6feaad3dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:38:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_d75b12178368d310c003f6d6feaad30a"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=d75b12178368d310c003f6d6feaad30a^sys_idNOT INa360a65f8368d310c003f6d6feaad315"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</action_id>
+        <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_hub_action_plan","id":"a360a65f8368d310c003f6d6feaad315","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
+        <snapshot>d360a65f8368d310c003f6d6feaad30d</snapshot>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a360a65f8368d310c003f6d6feaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:01</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>30000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>viacep</internal_name>
+        <label_cache>[{"name":"{{action.cep}}","label":"action➛cep","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].__step_status__}}","label":"step➛Prepare data➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5ab0ef85-4a29-4436-a2c3-1c0b531863b8].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].format}}","label":"step➛Prepare data➛Format","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].endpoint}}","label":"step➛Prepare data➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[4f9be734-8ee7-4627-9ddf-fe02e1c5be44].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>ViaCEP</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7660665f8368d310c003f6d6feaad319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=7660665f8368d310c003f6d6feaad319"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7660665f8368d310c003f6d6feaad319"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>7660665f8368d310c003f6d6feaad319</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>9360a65f8368d310c003f6d6feaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">8b60665f8368d310c003f6d6feaad3d1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>7660665f8368d310c003f6d6feaad319</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>d760a65f8368d310c003f6d6feaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">8b60665f8368d310c003f6d6feaad3c9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7660665f8368d310c003f6d6feaad319"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>viacep_data</field>
+        <id>7660665f8368d310c003f6d6feaad319</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>df60a65f8368d310c003f6d6feaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7660665f8368d310c003f6d6feaad319</table>
+        <value>{{step[4f9be734-8ee7-4627-9ddf-fe02e1c5be44].root}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>7660665f8368d310c003f6d6feaad319</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>9b60a65f8368d310c003f6d6feaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7660665f8368d310c003f6d6feaad319</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>7660665f8368d310c003f6d6feaad319</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>5760a65f8368d310c003f6d6feaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7660665f8368d310c003f6d6feaad319</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=7660665f8368d310c003f6d6feaad319^sys_idNOT IN8360665f8368d310c003f6d6feaad38d,8760665f8368d310c003f6d6feaad35f,fe60665f8368d310c003f6d6feaad32f"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</action>
+        <cid>4f9be734-8ee7-4627-9ddf-fe02e1c5be44</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>8360665f8368d310c003f6d6feaad38d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8360665f8368d310c003f6d6feaad38d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8360665f8368d310c003f6d6feaad38d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>8b60665f8368d310c003f6d6feaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"cep","children":[],"type":"string","jpath":"$.cep","previewValue":"93315-290"},{"name":"logradouro","children":[],"type":"string","jpath":"$.logradouro","previewValue":"Rua Paulo Provenzano"},{"name":"complemento","children":[],"type":"string","jpath":"$.complemento","previewValue":""},{"name":"unidade","children":[],"type":"string","jpath":"$.unidade","previewValue":""},{"name":"bairro","children":[],"type":"string","jpath":"$.bairro","previewValue":"Operário"},{"name":"localidade","children":[],"type":"string","jpath":"$.localidade","previewValue":"Novo Hamburgo"},{"name":"uf","children":[],"type":"string","jpath":"$.uf","previewValue":"RS"},{"name":"estado","children":[],"type":"string","jpath":"$.estado","previewValue":"Rio Grande do Sul"},{"name":"regiao","children":[],"type":"string","jpath":"$.regiao","previewValue":"Sul"},{"name":"ibge","children":[],"type":"string","jpath":"$.ibge","previewValue":"4313409"},{"name":"gia","children":[],"type":"string","jpath":"$.gia","previewValue":""},{"name":"ddd","children":[],"type":"string","jpath":"$.ddd","previewValue":"51"},{"name":"siafi","children":[],"type":"string","jpath":"$.siafi","previewValue":"8771"},{"name":"erro","children":[],"type":"string","jpath":"$.erro","previewValue":"true"}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8360665f8368d310c003f6d6feaad38d</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>cf60665f8368d310c003f6d6feaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <value>{&#13;
+  "cep": "93315-290",&#13;
+  "logradouro": "Rua Paulo Provenzano",&#13;
+  "complemento": "",&#13;
+  "unidade": "",&#13;
+  "bairro": "Operário",&#13;
+  "localidade": "Novo Hamburgo",&#13;
+  "uf": "RS",&#13;
+  "estado": "Rio Grande do Sul",&#13;
+  "regiao": "Sul",&#13;
+  "ibge": "4313409",&#13;
+  "gia": "",&#13;
+  "ddd": "51",&#13;
+  "siafi": "8771",&#13;
+  "erro": "true"&#13;
+}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_8360665f8368d310c003f6d6feaad38d^id=8360665f8368d310c003f6d6feaad38d"/>
+    <sys_element_mapping action="delete_multiple" query="id=8360665f8368d310c003f6d6feaad38d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>8360665f8368d310c003f6d6feaad38d</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>c760665f8368d310c003f6d6feaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>8360665f8368d310c003f6d6feaad38d</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>8360665f8368d310c003f6d6feaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[5ab0ef85-4a29-4436-a2c3-1c0b531863b8].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>8360665f8368d310c003f6d6feaad38d</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>4f60665f8368d310c003f6d6feaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=8360665f8368d310c003f6d6feaad38d"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8360665f8368d310c003f6d6feaad38d"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8360665f8368d310c003f6d6feaad38d^sys_idNOT IN0b60665f8368d310c003f6d6feaad393"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD4360665f2c68d310ef0de199105efd92</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>378fc84783a81310c003f6d6feaad34f</scope_name>
+        <serialized_content>{"FlowDesigner:FD4360665f2c68d310ef0de199105efd92":{"estado":"String","estado.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"estado\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\",\"uiUniqueId\":\"9b7f876a-e8a8-448d-ac30-3e86e437d08d\"}"},"ddd":"String","ddd.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"ddd\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\",\"uiUniqueId\":\"212358b2-9509-4548-8598-3d42e966e532\"}"},"erro":"String","erro.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"erro\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\",\"uiUniqueId\":\"b0626ede-746a-4a5e-9eac-ba006de0aa08\"}"},"bairro":"String","bairro.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"bairro\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"b187bf5c-8cf4-4bd3-8ae1-c4132d40165f\"}"},"ibge":"String","ibge.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"ibge\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\",\"uiUniqueId\":\"49505026-3880-457f-a694-1f8019b80207\"}"},"localidade":"String","localidade.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"localidade\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"bf575ee9-a42b-4fd7-baf3-ebf588e6dd6a\"}"},"unidade":"String","unidade.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"unidade\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"368af7f0-83e6-4104-a83d-4352ae8c0460\"}"},"regiao":"String","regiao.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"regiao\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\",\"uiUniqueId\":\"36cfa421-1ea2-4220-b032-426a565c7dc8\"}"},"siafi":"String","siafi.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"siafi\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\",\"uiUniqueId\":\"45e92827-c068-4b10-8585-04c6a9716f69\"}"},"cep":"String","cep.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"cep\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"7f0e160b-9d06-4cff-9dbf-6f015f600d2d\"}"},"uf":"String","uf.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"uf\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"e6c2b862-2fda-4943-80ef-c03918267096\"}"},"complemento":"String","complemento.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"complemento\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"74595c56-20c1-413f-974b-88e27973c77c\"}"},"logradouro":"String","logradouro.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"logradouro\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"eafd549b-d9cc-4c8d-9a07-a49cc10f8b34\"}"},"gia":"String","gia.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"gia\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\",\"uiUniqueId\":\"6ce5549f-d340-47ab-b89f-902cf35eaa40\"}"}},"FlowDesigner:FD4360665f2c68d310ef0de199105efd92.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"9d18bf71-8b54-4780-9835-fcb677379d9b\",\"uiTypeLabel\":\"Object\",\"help\":\"\",\"co_type_name\":\"FD4360665f2c68d310ef0de199105efd92\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4760665f8368d310c003f6d6feaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD4360665f2c68d310ef0de199105efd92,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=9d18bf71-8b54-4780-9835-fcb677379d9b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">8360665f8368d310c003f6d6feaad38d</model>
+        <model_id>8360665f8368d310c003f6d6feaad38d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_8360665f8368d310c003f6d6feaad38d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>0b60665f8368d310c003f6d6feaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8360665f8368d310c003f6d6feaad38d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_8360665f8368d310c003f6d6feaad38d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>8360665f8368d310c003f6d6feaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</action>
+        <cid>5ab0ef85-4a29-4436-a2c3-1c0b531863b8</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>8760665f8368d310c003f6d6feaad35f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8760665f8368d310c003f6d6feaad35f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8760665f8368d310c003f6d6feaad35f</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>0b60665f8368d310c003f6d6feaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8760665f8368d310c003f6d6feaad35f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>0f60665f8368d310c003f6d6feaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8760665f8368d310c003f6d6feaad35f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>4b60665f8368d310c003f6d6feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8760665f8368d310c003f6d6feaad35f</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>4f60665f8368d310c003f6d6feaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8760665f8368d310c003f6d6feaad35f</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>8360665f8368d310c003f6d6feaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8760665f8368d310c003f6d6feaad35f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>8f60665f8368d310c003f6d6feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8760665f8368d310c003f6d6feaad35f</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>c360665f8368d310c003f6d6feaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8760665f8368d310c003f6d6feaad35f</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>c760665f8368d310c003f6d6feaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8760665f8368d310c003f6d6feaad35f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>8760665f8368d310c003f6d6feaad35f</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>0f60665f8368d310c003f6d6feaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>8760665f8368d310c003f6d6feaad35f</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>c760665f8368d310c003f6d6feaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{step[6de45e29-76e2-477f-b394-971ca4920dfd].endpoint}}{{action.cep}}{{step[6de45e29-76e2-477f-b394-971ca4920dfd].format}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>8760665f8368d310c003f6d6feaad35f</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>8360665f8368d310c003f6d6feaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>8760665f8368d310c003f6d6feaad35f</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>0b60665f8368d310c003f6d6feaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>8760665f8368d310c003f6d6feaad35f</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>8760665f8368d310c003f6d6feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>8760665f8368d310c003f6d6feaad35f</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>4f60665f8368d310c003f6d6feaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>8760665f8368d310c003f6d6feaad35f</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>8f60665f8368d310c003f6d6feaad381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>8760665f8368d310c003f6d6feaad35f</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>c360665f8368d310c003f6d6feaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>8760665f8368d310c003f6d6feaad35f</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>4360665f8368d310c003f6d6feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=8760665f8368d310c003f6d6feaad35f"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8760665f8368d310c003f6d6feaad35f"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8760665f8368d310c003f6d6feaad35f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8760665f8368d310c003f6d6feaad35f"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</action>
+        <cid>6de45e29-76e2-477f-b394-971ca4920dfd</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Prepare data</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>fe60665f8368d310c003f6d6feaad32f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fe60665f8368d310c003f6d6feaad32f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fe60665f8368d310c003f6d6feaad32f</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>3a60665f8368d310c003f6d6feaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+    outputs.endpoint = gs.getProperty('x_2319535_jsf_pr_0.integration_viacep.endpoint');&#13;
+    outputs.format = gs.getProperty('x_2319535_jsf_pr_0.integration_viacep.format');&#13;
+    &#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fe60665f8368d310c003f6d6feaad32f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>f260665f8368d310c003f6d6feaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_fe60665f8368d310c003f6d6feaad32f^id=fe60665f8368d310c003f6d6feaad32f"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=fe60665f8368d310c003f6d6feaad32f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=fe60665f8368d310c003f6d6feaad32f"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=fe60665f8368d310c003f6d6feaad32f"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=fe60665f8368d310c003f6d6feaad32f^sys_idNOT IN3660665f8368d310c003f6d6feaad33f,b660665f8368d310c003f6d6feaad337"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8fb621e0-dd11-4e29-99af-66126a8fdaf9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>format</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Format</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Prepare data">fe60665f8368d310c003f6d6feaad32f</model>
+        <model_id>fe60665f8368d310c003f6d6feaad32f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_fe60665f8368d310c003f6d6feaad32f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>3660665f8368d310c003f6d6feaad33f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7a58ce9c-d33e-40f5-bc59-691335fd69db</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>endpoint</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Endpoint</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Prepare data">fe60665f8368d310c003f6d6feaad32f</model>
+        <model_id>fe60665f8368d310c003f6d6feaad32f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_fe60665f8368d310c003f6d6feaad32f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>b660665f8368d310c003f6d6feaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fe60665f8368d310c003f6d6feaad32f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>format</element>
+        <help/>
+        <hint/>
+        <label>Format</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_fe60665f8368d310c003f6d6feaad32f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>3e60665f8368d310c003f6d6feaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>endpoint</element>
+        <help/>
+        <hint/>
+        <label>Endpoint</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_fe60665f8368d310c003f6d6feaad32f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>fe60665f8368d310c003f6d6feaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=7660665f8368d310c003f6d6feaad319^sys_idNOT INb660665f8368d310c003f6d6feaad31f"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=63c5d401-85fe-492f-8fde-6e7dac126d80</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>cep</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>cep</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</model>
+        <model_id>7660665f8368d310c003f6d6feaad319</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_7660665f8368d310c003f6d6feaad319</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>b660665f8368d310c003f6d6feaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b660665f8368d310c003f6d6feaad31f"/>
+    <sys_hub_action_output action="delete_multiple" query="model=7660665f8368d310c003f6d6feaad319^sys_idNOT IN0b60665f8368d310c003f6d6feaad3c0,8b60665f8368d310c003f6d6feaad3c9,8b60665f8368d310c003f6d6feaad3d1"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD4360665fef68d31098ba59e14a33dcbf</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>378fc84783a81310c003f6d6feaad34f</scope_name>
+        <serialized_content>{"FlowDesigner:FD4360665fef68d31098ba59e14a33dcbf":{"estado":"String","estado.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"estado\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\",\"uiUniqueId\":\"9b7f876a-e8a8-448d-ac30-3e86e437d08d\"}"},"ddd":"String","ddd.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"ddd\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\",\"uiUniqueId\":\"212358b2-9509-4548-8598-3d42e966e532\"}"},"erro":"String","erro.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"erro\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\",\"uiUniqueId\":\"b0626ede-746a-4a5e-9eac-ba006de0aa08\"}"},"bairro":"String","bairro.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"bairro\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"b187bf5c-8cf4-4bd3-8ae1-c4132d40165f\"}"},"ibge":"String","ibge.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"ibge\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\",\"uiUniqueId\":\"49505026-3880-457f-a694-1f8019b80207\"}"},"localidade":"String","localidade.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"localidade\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"bf575ee9-a42b-4fd7-baf3-ebf588e6dd6a\"}"},"unidade":"String","unidade.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"unidade\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"368af7f0-83e6-4104-a83d-4352ae8c0460\"}"},"regiao":"String","regiao.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"regiao\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\",\"uiUniqueId\":\"36cfa421-1ea2-4220-b032-426a565c7dc8\"}"},"siafi":"String","siafi.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"siafi\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\",\"uiUniqueId\":\"45e92827-c068-4b10-8585-04c6a9716f69\"}"},"cep":"String","cep.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"cep\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"7f0e160b-9d06-4cff-9dbf-6f015f600d2d\"}"},"uf":"String","uf.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"uf\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"e6c2b862-2fda-4943-80ef-c03918267096\"}"},"complemento":"String","complemento.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"complemento\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"74595c56-20c1-413f-974b-88e27973c77c\"}"},"logradouro":"String","logradouro.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"logradouro\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"eafd549b-d9cc-4c8d-9a07-a49cc10f8b34\"}"},"gia":"String","gia.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"help\":\"\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"gia\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\",\"uiUniqueId\":\"6ce5549f-d340-47ab-b89f-902cf35eaa40\"}"}},"FlowDesigner:FD4360665fef68d31098ba59e14a33dcbf.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"4f9be734-8ee7-4627-9ddf-fe02e1c5be44\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"ViaCEP Data\",\"mandatory\":\"false\",\"uiUniqueId\":\"c6da934f-2ffc-45fe-ad26-5aecbea54a18\",\"uiTypeLabel\":\"Object\",\"help\":\"\",\"co_type_name\":\"FD4360665fef68d31098ba59e14a33dcbf\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"9d18bf71-8b54-4780-9835-fcb677379d9b\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4760665f8368d310c003f6d6feaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD4360665fef68d31098ba59e14a33dcbf,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=4f9be734-8ee7-4627-9ddf-fe02e1c5be44,sourceType=step,sourceUiUniqueId=9d18bf71-8b54-4780-9835-fcb677379d9b,uiType=object,uiTypeLabel=Object,uiUniqueId=c6da934f-2ffc-45fe-ad26-5aecbea54a18</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>viacep_data</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ViaCEP Data</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</model>
+        <model_id>7660665f8368d310c003f6d6feaad319</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_7660665f8368d310c003f6d6feaad319</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>0b60665f8368d310c003f6d6feaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0b60665f8368d310c003f6d6feaad3c0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0b60665f8368d310c003f6d6feaad3c0"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=7b98714f-61f3-409f-bf35-35f51f6bd1bb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</model>
+        <model_id>7660665f8368d310c003f6d6feaad319</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_7660665f8368d310c003f6d6feaad319</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>8b60665f8368d310c003f6d6feaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8b60665f8368d310c003f6d6feaad3c9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8b60665f8368d310c003f6d6feaad3c9"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=99c3160b-4d4c-4450-940d-a2536e648ec2,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</model>
+        <model_id>7660665f8368d310c003f6d6feaad319</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_7660665f8368d310c003f6d6feaad319</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>8b60665f8368d310c003f6d6feaad3d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8b60665f8368d310c003f6d6feaad3d1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8b60665f8368d310c003f6d6feaad3d1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7660665f8368d310c003f6d6feaad319"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=7660665f8368d310c003f6d6feaad319^sys_idNOT IN9f60a65f8368d310c003f6d6feaad30c"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</action_type_id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>9f60a65f8368d310c003f6d6feaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=9f60a65f8368d310c003f6d6feaad30c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>cep</element>
+        <help/>
+        <hint/>
+        <label>cep</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_7660665f8368d310c003f6d6feaad319</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:55:59</sys_created_on>
+        <sys_id>3260665f8368d310c003f6d6feaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_7660665f8368d310c003f6d6feaad319"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>viacep_data</element>
+        <help/>
+        <hint/>
+        <label>ViaCEP Data</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7660665f8368d310c003f6d6feaad319</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>4760665f8368d310c003f6d6feaad3c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7660665f8368d310c003f6d6feaad319</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>4760665f8368d310c003f6d6feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7660665f8368d310c003f6d6feaad319</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 19:56:00</sys_created_on>
+        <sys_id>df60665f8368d310c003f6d6feaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_7660665f8368d310c003f6d6feaad319"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>d75b12178368d310c003f6d6feaad30a</sys_id>
+        <latest_snapshot>7660665f8368d310c003f6d6feaad319</latest_snapshot>
+        <compiler_build>glide-brazil-08-25-2026__patch2-10-22-2026_11-03-2026_2245.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

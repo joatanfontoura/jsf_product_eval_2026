@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Product Evaluation Submission">2315855383ec9310c003f6d6feaad3d5</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 14:28:59</sys_created_on>
+        <sys_id>019551538360d310c003f6d6feaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Product Evaluation Submission.Product Evaluation - Customers</sys_name>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_019551538360d310c003f6d6feaad3bd</sys_update_name>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 14:28:59</sys_updated_on>
+        <user_criteria display_value="Product Evaluation - Customers">8ff411138360d310c003f6d6feaad324</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

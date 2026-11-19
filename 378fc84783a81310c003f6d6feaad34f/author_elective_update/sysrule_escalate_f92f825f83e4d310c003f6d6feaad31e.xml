@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_escalate">
+    <sysrule_escalate action="DELETE">
+        <advanced_condition/>
+        <assignment_script/>
+        <calendar/>
+        <condition/>
+        <description/>
+        <name>Product Evaluation Time</name>
+        <order>100</order>
+        <pause_condition/>
+        <reset_condition/>
+        <sys_class_name>sysrule_escalate</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 18:42:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f92f825f83e4d310c003f6d6feaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Product Evaluation Time</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name>sysrule_escalate_f92f825f83e4d310c003f6d6feaad31e</sys_update_name>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 18:42:30</sys_updated_on>
+        <table>x_2319535_jsf_pr_0_evaluation</table>
+        <threshold/>
+    </sysrule_escalate>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</application>
+        <file_path/>
+        <instance_id>8536c7fafb245f9c1feef633beefdc8b</instance_id>
+        <instance_name>dev487232</instance_name>
+        <merge_base/>
+        <name>sysrule_escalate_f92f825f83e4d310c003f6d6feaad31e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_escalate"><sysrule_escalate action="INSERT_OR_UPDATE"><advanced_condition/><assignment_script/><calendar/><condition/><description/><name>Product Evaluation Time</name><order>100</order><pause_condition/><reset_condition/><sys_class_name>sysrule_escalate</sys_class_name><sys_created_by>joatan</sys_created_by><sys_created_on>2026-11-19 18:42:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f92f825f83e4d310c003f6d6feaad31e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Product Evaluation Time</sys_name><sys_overrides/><sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package><sys_policy/><sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope><sys_update_name>sysrule_escalate_f92f825f83e4d310c003f6d6feaad31e</sys_update_name><sys_updated_by>joatan</sys_updated_by><sys_updated_on>2026-11-19 18:42:30</sys_updated_on><table>x_2319535_jsf_pr_0_evaluation</table><threshold/></sysrule_escalate></record_update>]]></payload>
+        <payload_hash>-381145653</payload_hash>
+        <record_name>Product Evaluation Time</record_name>
+        <reverted_from/>
+        <source>5147fc9f832c9310c003f6d6feaad33c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 18:42:30</sys_created_on>
+        <sys_id>569f8e5f83e4d310c003f6d6feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1f51e0ebe0000001</sys_recorded_at>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 18:42:30</sys_updated_on>
+        <type>Service Level Agreement</type>
+        <update_guid>169f8e5f85e4d3103707c1dffac68ccc</update_guid>
+        <update_guid_history>169f8e5f85e4d3103707c1dffac68ccc:-381145653</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 18:43:17</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_escalate">sysrule_escalate</sys_db_object>
+        <sys_id>6bd1716d858a4baaae30f0bc0642bf64</sys_id>
+        <sys_metadata>f92f825f83e4d310c003f6d6feaad31e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Product Evaluation Time</sys_name>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_scope_delete display_value="">3828a98425a3411c995fafd1694462a4</sys_scope_delete>
+        <sys_update_name>sysrule_escalate_f92f825f83e4d310c003f6d6feaad31e</sys_update_name>
+        <sys_update_version display_value="sysrule_escalate_f92f825f83e4d310c003f6d6feaad31e">569f8e5f83e4d310c003f6d6feaad3cd</sys_update_version>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 18:43:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

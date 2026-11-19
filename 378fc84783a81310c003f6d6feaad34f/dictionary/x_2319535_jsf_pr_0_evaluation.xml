@@ -2,7 +2,7 @@
     <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="7361108b83a81310c003f6d6feaad332" extends="task" label="Evaluation" max_length="40" name="x_2319535_jsf_pr_0_evaluation" type="collection">
         <element label="Reproval reason" max_length="1000" name="reproval_reason" type="string"/>
         <element label="Evaluation complete" max_length="40" name="evaluation_complete" type="boolean"/>
-        <element label="Product" max_length="32" name="product" reference="x_2319535_jsf_pr_0_product" type="reference"/>
+        <element label="Product" max_length="32" name="product" reference="x_2319535_jsf_pr_0_product" reference_qual="javascript:new x_2319535_jsf_pr_0.ProductEvalUtils().refQualProduct();" type="reference" use_reference_qualifier="advanced"/>
         <element choice="1" label="Reward" max_length="40" name="reward" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Credit card points" sequence="200" value="2"/>

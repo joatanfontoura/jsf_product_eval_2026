@@ -3,17 +3,32 @@
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
             <group_by_field/>
-            <list_id display_value="Evaluation - Default view" name="x_2319535_jsf_pr_0_evaluation" related_list="NULL" sys_domain="global" view="Default view">4ce3818783205310c003f6d6feaad324</list_id>
+            <list_id display_value="Evaluation - Default view" name="x_2319535_jsf_pr_0_evaluation" related_list="NULL" sys_domain="global" view="Default view">b27a0e1783e4d310c003f6d6feaad360</list_id>
             <order_by/>
             <position>0</position>
             <related_list>sysapproval_approver.sysapproval</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-18 18:33:10</sys_created_on>
-            <sys_id>08e3818783205310c003f6d6feaad326</sys_id>
+            <sys_created_by>joatan</sys_created_by>
+            <sys_created_on>2026-11-19 18:20:08</sys_created_on>
+            <sys_id>7e7a0e1783e4d310c003f6d6feaad362</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-18 18:33:10</sys_updated_on>
+            <sys_updated_by>joatan</sys_updated_by>
+            <sys_updated_on>2026-11-19 18:20:08</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <group_by_field/>
+            <list_id display_value="Evaluation - Default view" name="x_2319535_jsf_pr_0_evaluation" related_list="NULL" sys_domain="global" view="Default view">b27a0e1783e4d310c003f6d6feaad360</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>task_sla.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>joatan</sys_created_by>
+            <sys_created_on>2026-11-19 18:20:08</sys_created_on>
+            <sys_id>7e7a0e1783e4d310c003f6d6feaad363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joatan</sys_updated_by>
+            <sys_updated_on>2026-11-19 18:20:08</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Evaluation - Default view</calculated_name>
@@ -23,19 +38,19 @@
             <position/>
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-18 18:33:10</sys_created_on>
+            <sys_created_by>joatan</sys_created_by>
+            <sys_created_on>2026-11-19 18:20:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4ce3818783205310c003f6d6feaad324</sys_id>
+            <sys_id>b27a0e1783e4d310c003f6d6feaad360</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Evaluation - Default view</sys_name>
             <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
             <sys_policy/>
             <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
             <sys_update_name>sys_ui_related_x_2319535_jsf_pr_0_evaluation_null</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-18 18:33:10</sys_updated_on>
+            <sys_updated_by>joatan</sys_updated_by>
+            <sys_updated_on>2026-11-19 18:20:08</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

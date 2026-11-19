@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_2319535_jsf_pr_0.ProductEvalUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ProductEvalUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ProductEvalUtils = Class.create();
+ProductEvalUtils.prototype = {
+    initialize: function() {},
+    refQualProduct: function() {
+        var evaluatedProducts = [];
+        var availableProducts = [];
+        var evaluationCounts = {};
+
+//////// STRY 14 ////////
+
+        // 1 - Busca os produtos avaliados pelo user
+        var gr = new GlideRecord('x_2319535_jsf_pr_0_evaluation');
+        gr.addQuery('opened_by', gs.getUserID());
+        gr.addQuery('state', '!=', 4);
+        gr.query();
+
+        while (gr.next()) {
+            evaluatedProducts.push(gr.getValue('product'));
+        }
+
+        // 2 - Filtra os que não foram avaliados pelo user
+        var product = new GlideRecord('x_2319535_jsf_pr_0_product');
+        product.addQuery('sys_id', 'NOT IN', evaluatedProducts.join(','));
+        product.query();
+
+//////// STRY 20 ////////
+
+        // 3 - Conta as avaliações por produto
+        var evaluation = new GlideAggregate('x_2319535_jsf_pr_0_evaluation');
+        evaluation.addAggregate('COUNT');
+        evaluation.groupBy('product');
+        evaluation.query();
+
+        while (evaluation.next()) {
+            var productId = evaluation.getValue('product');
+            var count = parseInt(evaluation.getAggregate('COUNT'));
+
+            evaluationCounts[productId] = count;
+        }
+
+        // 4 - Filtra os produtos
+        while (product.next()) {
+            var currentProduct = product.getUniqueValue();
+            var count = evaluationCounts[currentProduct] || 0;
+
+            if (count < 5) {
+                availableProducts.push(currentProduct);
+            }
+        }
+
+        // 5 - Recupera os registros na lista de availableProducts
+        return 'sys_idIN' + availableProducts.join(',');
+    },
+    type: 'ProductEvalUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 15:08:19</sys_created_on>
+        <sys_id>c5ec111383a0d310c003f6d6feaad331</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ProductEvalUtils</sys_name>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name>sys_script_include_c5ec111383a0d310c003f6d6feaad331</sys_update_name>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 18:39:54</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Product Evaluation Submission">2315855383ec9310c003f6d6feaad3d5</sc_cat_item>
+        <sc_category display_value="Compre S.A.">2b94851383ec9310c003f6d6feaad376</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 13:22:21</sys_created_on>
+        <sys_id>3c56811783ec9310c003f6d6feaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Compre S.A..Product Evaluation Submission</sys_name>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name>sc_cat_item_category_3c56811783ec9310c003f6d6feaad3ff</sys_update_name>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 13:22:21</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</application>
+        <file_path/>
+        <instance_id>8536c7fafb245f9c1feef633beefdc8b</instance_id>
+        <instance_name>dev487232</instance_name>
+        <merge_base/>
+        <name>sc_cat_item_category_3c56811783ec9310c003f6d6feaad3ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Product Evaluation Submission">2315855383ec9310c003f6d6feaad3d5</sc_cat_item><sc_category display_value="Compre S.A.">2b94851383ec9310c003f6d6feaad376</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>joatan</sys_created_by><sys_created_on>2026-11-19 13:22:21</sys_created_on><sys_id>3c56811783ec9310c003f6d6feaad3ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Compre S.A..Product Evaluation Submission</sys_name><sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package><sys_policy/><sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope><sys_update_name>sc_cat_item_category_3c56811783ec9310c003f6d6feaad3ff</sys_update_name><sys_updated_by>joatan</sys_updated_by><sys_updated_on>2026-11-19 13:22:21</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>658845883</payload_hash>
+        <record_name>Compre S.A..Product Evaluation Submission</record_name>
+        <reverted_from/>
+        <source>5147fc9f832c9310c003f6d6feaad33c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 13:22:21</sys_created_on>
+        <sys_id>7c56c11783ec9310c003f6d6feaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1f3f8f5b70000001</sys_recorded_at>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 13:22:21</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>3856c11704ec9310ec5e9f1d3cc44a07</update_guid>
+        <update_guid_history>3856c11704ec9310ec5e9f1d3cc44a07:658845883</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Compre S.A..Product Evaluation Submission">0156c11783ec9310c003f6d6feaad344</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 13:22:22</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>4836a2913a92431a9b26d89b8c25ac01</sys_id>
+        <sys_metadata>3c56811783ec9310c003f6d6feaad3ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Compre S.A..Product Evaluation Submission</sys_name>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_scope_delete display_value="">3828a98425a3411c995fafd1694462a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_3c56811783ec9310c003f6d6feaad3ff</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_3c56811783ec9310c003f6d6feaad3ff">7c56c11783ec9310c003f6d6feaad308</sys_update_version>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 13:22:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

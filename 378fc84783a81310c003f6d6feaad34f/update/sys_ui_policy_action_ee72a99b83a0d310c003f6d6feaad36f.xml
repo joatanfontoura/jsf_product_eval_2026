@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>product</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-19 15:25:21</sys_created_on>
+        <sys_id>ee72a99b83a0d310c003f6d6feaad36f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>product</sys_name>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ee72a99b83a0d310c003f6d6feaad36f</sys_update_name>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-19 17:30:37</sys_updated_on>
+        <table>x_2319535_jsf_pr_0_evaluation</table>
+        <ui_policy display_value="Fields read-only when status is &quot;Comepleted&quot; or &quot;Reproved&quot;">7181ad1b83a0d310c003f6d6feaad3e1</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=ee72a99b83a0d310c003f6d6feaad36f"/>
+</record_update>
