@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Geocoding Integration</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-24 12:22:16</sys_created_on>
+        <sys_id>e6786a7083b49f10c003f6d6feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Geocoding Integration</sys_name>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name>sys_properties_category_e6786a7083b49f10c003f6d6feaad3ed</sys_update_name>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-24 12:22:16</sys_updated_on>
+        <title/>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=e6786a7083b49f10c003f6d6feaad3ed"/>
+</record_update>

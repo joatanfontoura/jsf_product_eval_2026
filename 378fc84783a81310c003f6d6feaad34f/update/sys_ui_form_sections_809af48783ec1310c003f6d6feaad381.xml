@@ -28,6 +28,34 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-11-18 17:52:30</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>joatan</sys_created_by>
+            <sys_created_on>2026-11-24 21:28:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a75a4c18334df10c003f6d6feaad3f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2319535_jsf_pr_0_store" name="x_2319535_jsf_pr_0_store" sys_domain="global" view="Default view">809af48783ec1310c003f6d6feaad381</sys_ui_form>
+            <sys_ui_section caption="ViaCEP Integration" display_value="ViaCEP Integration" name="x_2319535_jsf_pr_0_store" sys_domain="global" view="Default view">fa75a4c18334df10c003f6d6feaad3f1</sys_ui_section>
+            <sys_updated_by>joatan</sys_updated_by>
+            <sys_updated_on>2026-11-24 21:28:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>joatan</sys_created_by>
+            <sys_created_on>2026-11-24 21:28:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba75a4c18334df10c003f6d6feaad3ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2319535_jsf_pr_0_store" name="x_2319535_jsf_pr_0_store" sys_domain="global" view="Default view">809af48783ec1310c003f6d6feaad381</sys_ui_form>
+            <sys_ui_section caption="Geocoding Integration" display_value="Geocoding Integration" name="x_2319535_jsf_pr_0_store" sys_domain="global" view="Default view">3e75a4c18334df10c003f6d6feaad3f3</sys_ui_section>
+            <sys_updated_by>joatan</sys_updated_by>
+            <sys_updated_on>2026-11-24 21:28:14</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_2319535_jsf_pr_0_store</name>
             <roles/>

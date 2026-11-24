@@ -14,32 +14,32 @@
         <copied_from_name/>
         <description/>
         <flow_priority/>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>viacep</internal_name>
-        <label_cache>[{"name":"{{action.cep}}","label":"action➛cep","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].__step_status__}}","label":"step➛Prepare data➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5ab0ef85-4a29-4436-a2c3-1c0b531863b8].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].format}}","label":"step➛Prepare data➛Format","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].endpoint}}","label":"step➛Prepare data➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[4f9be734-8ee7-4627-9ddf-fe02e1c5be44].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.cep}}","label":"action➛cep","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].__step_status__}}","label":"step➛Prepare data➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5ab0ef85-4a29-4436-a2c3-1c0b531863b8].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].format}}","label":"step➛Prepare data➛Format","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].endpoint}}","label":"step➛Prepare data➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[4f9be734-8ee7-4627-9ddf-fe02e1c5be44].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4f9be734-8ee7-4627-9ddf-fe02e1c5be44].__step_status__.code}}","label":"step➛JSON Parser step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>7660665f8368d310c003f6d6feaad319</master_snapshot>
         <master_snapshot_digest/>
-        <name>ViaCEP</name>
+        <name>ViaCEP API</name>
         <natlang/>
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>joatan</sys_created_by>
         <sys_created_on>2026-11-19 19:33:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d75b12178368d310c003f6d6feaad30a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>ViaCEP</sys_name>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>ViaCEP API</sys_name>
         <sys_overrides/>
         <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
         <sys_policy/>
         <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d75b12178368d310c003f6d6feaad30a</sys_update_name>
         <sys_updated_by>joatan</sys_updated_by>
-        <sys_updated_on>2026-11-19 20:02:36</sys_updated_on>
+        <sys_updated_on>2026-11-24 20:19:50</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -112,7 +112,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=d75b12178368d310c003f6d6feaad30a^sys_idNOT IN875c5e578368d310c003f6d6feaad37a,c75c5e578368d310c003f6d6feaad395,d260e25f8368d310c003f6d6feaad3f4"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</action>
+        <action display_value="ViaCEP API">d75b12178368d310c003f6d6feaad30a</action>
         <cid>6de45e29-76e2-477f-b394-971ca4920dfd</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -388,7 +388,7 @@
         <url_target/>
     </sys_documentation>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</action>
+        <action display_value="ViaCEP API">d75b12178368d310c003f6d6feaad30a</action>
         <cid>5ab0ef85-4a29-4436-a2c3-1c0b531863b8</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -636,7 +636,7 @@
     <sys_hub_step_ext_output action="delete_multiple" query="model=c75c5e578368d310c003f6d6feaad395"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c75c5e578368d310c003f6d6feaad395"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</action>
+        <action display_value="ViaCEP API">d75b12178368d310c003f6d6feaad30a</action>
         <cid>4f9be734-8ee7-4627-9ddf-fe02e1c5be44</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -754,7 +754,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1e60e25f8368d310c003f6d6feaad3fa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -762,7 +762,7 @@
         <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joatan</sys_updated_by>
-        <sys_updated_on>2026-11-19 20:02:36</sys_updated_on>
+        <sys_updated_on>2026-11-24 20:19:47</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -914,7 +914,7 @@
         <label>cep</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</model>
+        <model display_value="ViaCEP API">d75b12178368d310c003f6d6feaad30a</model>
         <model_id>d75b12178368d310c003f6d6feaad30a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_d75b12178368d310c003f6d6feaad30a</name>
@@ -972,7 +972,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a660265f8368d310c003f6d6feaad31e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -980,7 +980,7 @@
         <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joatan</sys_updated_by>
-        <sys_updated_on>2026-11-19 20:02:36</sys_updated_on>
+        <sys_updated_on>2026-11-24 20:19:47</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -1025,7 +1025,7 @@
         <label>ViaCEP Data</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</model>
+        <model display_value="ViaCEP API">d75b12178368d310c003f6d6feaad30a</model>
         <model_id>d75b12178368d310c003f6d6feaad30a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d75b12178368d310c003f6d6feaad30a</name>
@@ -1113,7 +1113,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</model>
+        <model display_value="ViaCEP API">d75b12178368d310c003f6d6feaad30a</model>
         <model_id>d75b12178368d310c003f6d6feaad30a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d75b12178368d310c003f6d6feaad30a</name>
@@ -1201,7 +1201,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</model>
+        <model display_value="ViaCEP API">d75b12178368d310c003f6d6feaad30a</model>
         <model_id>d75b12178368d310c003f6d6feaad30a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d75b12178368d310c003f6d6feaad30a</name>
@@ -1225,14 +1225,14 @@
         <sys_created_by>joatan</sys_created_by>
         <sys_created_on>2026-11-19 19:38:15</sys_created_on>
         <sys_id>9b5c5e578368d310c003f6d6feaad3f7</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joatan</sys_updated_by>
-        <sys_updated_on>2026-11-19 20:02:36</sys_updated_on>
+        <sys_updated_on>2026-11-24 20:19:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1250,7 +1250,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=d75b12178368d310c003f6d6feaad30a"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=d75b12178368d310c003f6d6feaad30a^sys_idNOT INd75c9e578368d310c003f6d6feaad319"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</action_type_id>
+        <action_type_id display_value="ViaCEP API">d75b12178368d310c003f6d6feaad30a</action_type_id>
         <sys_created_by>joatan</sys_created_by>
         <sys_created_on>2026-11-19 19:38:16</sys_created_on>
         <sys_id>d75c9e578368d310c003f6d6feaad319</sys_id>
@@ -1258,7 +1258,21 @@
         <sys_updated_by>joatan</sys_updated_by>
         <sys_updated_on>2026-11-19 19:38:16</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=d75c9e578368d310c003f6d6feaad319"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=d75c9e578368d310c003f6d6feaad319^sys_idNOT IN79c5144583b0df10c003f6d6feaad3a1"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 19/11/2026 16:38:16">d75c9e578368d310c003f6d6feaad319</action_status_metadata_id>
+        <condition>{{step[4f9be734-8ee7-4627-9ddf-fe02e1c5be44].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>true</dont_treat_as_error>
+        <label>Invalid zipcode</label>
+        <order>1</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"500"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Probable invalid zipcode"}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-24 20:19:37</sys_created_on>
+        <sys_id>79c5144583b0df10c003f6d6feaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-24 20:19:37</sys_updated_on>
+    </sys_hub_status_condition>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>cep</element>
         <help/>
@@ -1355,19 +1369,19 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_d75b12178368d310c003f6d6feaad30a"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=d75b12178368d310c003f6d6feaad30a^sys_idNOT INa360a65f8368d310c003f6d6feaad315"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</action_id>
+        <action_id display_value="ViaCEP API">d75b12178368d310c003f6d6feaad30a</action_id>
         <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_hub_action_plan","id":"a360a65f8368d310c003f6d6feaad315","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
-        <snapshot>d360a65f8368d310c003f6d6feaad30d</snapshot>
+        <snapshot>cdd5184583b0df10c003f6d6feaad35b</snapshot>
         <sys_created_by>joatan</sys_created_by>
         <sys_created_on>2026-11-19 19:56:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a360a65f8368d310c003f6d6feaad315</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>joatan</sys_updated_by>
-        <sys_updated_on>2026-11-19 19:56:01</sys_updated_on>
+        <sys_updated_on>2026-11-24 20:19:50</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1384,20 +1398,20 @@
         <description/>
         <flow_priority/>
         <internal_name>viacep</internal_name>
-        <label_cache>[{"name":"{{action.cep}}","label":"action➛cep","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].__step_status__}}","label":"step➛Prepare data➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5ab0ef85-4a29-4436-a2c3-1c0b531863b8].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].format}}","label":"step➛Prepare data➛Format","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].endpoint}}","label":"step➛Prepare data➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[4f9be734-8ee7-4627-9ddf-fe02e1c5be44].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.cep}}","label":"action➛cep","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].__step_status__}}","label":"step➛Prepare data➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5ab0ef85-4a29-4436-a2c3-1c0b531863b8].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].format}}","label":"step➛Prepare data➛Format","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[6de45e29-76e2-477f-b394-971ca4920dfd].endpoint}}","label":"step➛Prepare data➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[4f9be734-8ee7-4627-9ddf-fe02e1c5be44].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4f9be734-8ee7-4627-9ddf-fe02e1c5be44].__step_status__.code}}","label":"step➛JSON Parser step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
-        <name>ViaCEP</name>
+        <name>ViaCEP API</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="ViaCEP">d75b12178368d310c003f6d6feaad30a</parent_action>
+        <parent_action display_value="ViaCEP API">d75b12178368d310c003f6d6feaad30a</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>joatan</sys_created_by>
         <sys_created_on>2026-11-19 19:55:59</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7660665f8368d310c003f6d6feaad319</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1405,7 +1419,7 @@
         <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joatan</sys_updated_by>
-        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <sys_updated_on>2026-11-24 20:19:49</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1478,7 +1492,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=7660665f8368d310c003f6d6feaad319^sys_idNOT IN8360665f8368d310c003f6d6feaad38d,8760665f8368d310c003f6d6feaad35f,fe60665f8368d310c003f6d6feaad32f"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</action>
+        <action display_value="ViaCEP API">7660665f8368d310c003f6d6feaad319</action>
         <cid>4f9be734-8ee7-4627-9ddf-fe02e1c5be44</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1596,7 +1610,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4760665f8368d310c003f6d6feaad392</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1604,7 +1618,7 @@
         <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joatan</sys_updated_by>
-        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <sys_updated_on>2026-11-24 20:19:49</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -1716,7 +1730,7 @@
         <url_target/>
     </sys_documentation>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</action>
+        <action display_value="ViaCEP API">7660665f8368d310c003f6d6feaad319</action>
         <cid>5ab0ef85-4a29-4436-a2c3-1c0b531863b8</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1732,10 +1746,10 @@
         <sys_created_by>joatan</sys_created_by>
         <sys_created_on>2026-11-19 19:55:59</sys_created_on>
         <sys_id>8760665f8368d310c003f6d6feaad35f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
         <sys_updated_by>joatan</sys_updated_by>
-        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <sys_updated_on>2026-11-23 13:01:57</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8760665f8368d310c003f6d6feaad35f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1869,11 +1883,11 @@
         <sys_created_by>joatan</sys_created_by>
         <sys_created_on>2026-11-19 19:55:59</sys_created_on>
         <sys_id>c760665f8368d310c003f6d6feaad383</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>joatan</sys_updated_by>
-        <sys_updated_on>2026-11-19 19:55:59</sys_updated_on>
+        <sys_updated_on>2026-11-23 13:01:57</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{{step[6de45e29-76e2-477f-b394-971ca4920dfd].endpoint}}{{action.cep}}{{step[6de45e29-76e2-477f-b394-971ca4920dfd].format}}</value>
+        <value>{{step[6de45e29-76e2-477f-b394-971ca4920dfd].endpoint}}/{{action.cep}}/{{step[6de45e29-76e2-477f-b394-971ca4920dfd].format}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>capabilities</field>
@@ -1964,7 +1978,7 @@
     <sys_hub_step_ext_output action="delete_multiple" query="model=8760665f8368d310c003f6d6feaad35f"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=8760665f8368d310c003f6d6feaad35f"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</action>
+        <action display_value="ViaCEP API">7660665f8368d310c003f6d6feaad319</action>
         <cid>6de45e29-76e2-477f-b394-971ca4920dfd</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -2280,7 +2294,7 @@
         <label>cep</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</model>
+        <model display_value="ViaCEP API">7660665f8368d310c003f6d6feaad319</model>
         <model_id>7660665f8368d310c003f6d6feaad319</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_7660665f8368d310c003f6d6feaad319</name>
@@ -2338,7 +2352,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4760665f8368d310c003f6d6feaad3bf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2346,7 +2360,7 @@
         <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joatan</sys_updated_by>
-        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <sys_updated_on>2026-11-24 20:19:50</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -2391,7 +2405,7 @@
         <label>ViaCEP Data</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</model>
+        <model display_value="ViaCEP API">7660665f8368d310c003f6d6feaad319</model>
         <model_id>7660665f8368d310c003f6d6feaad319</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_7660665f8368d310c003f6d6feaad319</name>
@@ -2479,7 +2493,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</model>
+        <model display_value="ViaCEP API">7660665f8368d310c003f6d6feaad319</model>
         <model_id>7660665f8368d310c003f6d6feaad319</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_7660665f8368d310c003f6d6feaad319</name>
@@ -2567,7 +2581,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</model>
+        <model display_value="ViaCEP API">7660665f8368d310c003f6d6feaad319</model>
         <model_id>7660665f8368d310c003f6d6feaad319</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_7660665f8368d310c003f6d6feaad319</name>
@@ -2591,14 +2605,14 @@
         <sys_created_by>joatan</sys_created_by>
         <sys_created_on>2026-11-19 19:56:00</sys_created_on>
         <sys_id>8b60665f8368d310c003f6d6feaad3d1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joatan</sys_updated_by>
-        <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
+        <sys_updated_on>2026-11-24 20:19:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2616,7 +2630,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=7660665f8368d310c003f6d6feaad319"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=7660665f8368d310c003f6d6feaad319^sys_idNOT IN9f60a65f8368d310c003f6d6feaad30c"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="ViaCEP">7660665f8368d310c003f6d6feaad319</action_type_id>
+        <action_type_id display_value="ViaCEP API">7660665f8368d310c003f6d6feaad319</action_type_id>
         <sys_created_by>joatan</sys_created_by>
         <sys_created_on>2026-11-19 19:56:00</sys_created_on>
         <sys_id>9f60a65f8368d310c003f6d6feaad30c</sys_id>
@@ -2624,7 +2638,21 @@
         <sys_updated_by>joatan</sys_updated_by>
         <sys_updated_on>2026-11-19 19:56:00</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=9f60a65f8368d310c003f6d6feaad30c"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=9f60a65f8368d310c003f6d6feaad30c^sys_idNOT IN0dd5184583b0df10c003f6d6feaad35b"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 19/11/2026 16:56:00">9f60a65f8368d310c003f6d6feaad30c</action_status_metadata_id>
+        <condition>{{step[4f9be734-8ee7-4627-9ddf-fe02e1c5be44].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>true</dont_treat_as_error>
+        <label>Invalid zipcode</label>
+        <order>1</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"500"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Probable invalid zipcode"}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-24 20:19:50</sys_created_on>
+        <sys_id>0dd5184583b0df10c003f6d6feaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-24 20:19:50</sys_updated_on>
+    </sys_hub_status_condition>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>cep</element>
         <help/>

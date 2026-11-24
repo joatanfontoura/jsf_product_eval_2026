@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="e6f5d4c383e81310c003f6d6feaad3ed" extends="cmn_location" label="Store" max_length="40" name="x_2319535_jsf_pr_0_store" type="collection"/>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="e6f5d4c383e81310c003f6d6feaad3ed" extends="cmn_location" label="Store" max_length="40" name="x_2319535_jsf_pr_0_store" type="collection">
+        <element choice="1" label="ViaCEP Integration State" max_length="40" name="viacep_integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integration Success" sequence="200" value="3"/>
+                <element inactive_on_update="false" label="Integration Failure" sequence="300" value="4"/>
+                <element inactive_on_update="false" label="Integrating" sequence="100" value="1"/>
+            </choice>
+        </element>
+        <element choice="1" label="Geocoding Integration State" max_length="40" name="geocoding_integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integration Success" sequence="200" value="3"/>
+                <element inactive_on_update="false" label="Integration Failure" sequence="300" value="4"/>
+                <element inactive_on_update="false" label="Integrating" sequence="100" value="1"/>
+            </choice>
+        </element>
+    </element>
 </database>

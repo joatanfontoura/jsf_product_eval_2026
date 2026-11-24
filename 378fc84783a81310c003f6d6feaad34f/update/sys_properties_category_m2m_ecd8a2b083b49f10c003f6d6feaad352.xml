@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Geocoding Integration">e6786a7083b49f10c003f6d6feaad3ed</category>
+        <order>400</order>
+        <property display_value="x_2319535_jsf_pr_0.integration_geocoding.retry_count" name="x_2319535_jsf_pr_0.integration_geocoding.retry_count">0afe6d2483b01f10c003f6d6feaad358</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2026-11-24 12:23:34</sys_created_on>
+        <sys_id>ecd8a2b083b49f10c003f6d6feaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2319535_jsf_pr_0.integration_geocoding.retry_count.Geocoding Integration</sys_name>
+        <sys_package display_value="JSF - Product Evaluation 2026" source="x_2319535_jsf_pr_0">378fc84783a81310c003f6d6feaad34f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JSF - Product Evaluation 2026">378fc84783a81310c003f6d6feaad34f</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_ecd8a2b083b49f10c003f6d6feaad352</sys_update_name>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2026-11-24 12:23:34</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
